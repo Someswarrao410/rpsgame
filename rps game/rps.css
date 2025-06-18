@@ -1,0 +1,42 @@
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #8ccbe4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 20px;
+    }
+    .game-container {
+      background-color: #f17642;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 800px;
+      height: 350px;;
+      margin: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .choices button {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .choices button:hover {
+      background-color: #75e1ab;
+    }
+    
+    
+    #computerChoice, #result {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #0b0a0a;
+    }

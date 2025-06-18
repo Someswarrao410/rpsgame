@@ -1,1 +1,1 @@
-# rockpaperscissorgame
+# rpsgame
